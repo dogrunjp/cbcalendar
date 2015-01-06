@@ -5,7 +5,7 @@
         var bars = svg1.append("g").attr("class", "bars");
 
         var margin = {top: 30, left: 20, right: 20, bottom: 30}, width = 180, height = 500,
-            x1 = d3.scale.linear().range([0, width]).domain([1, 12]),
+            x1 = d3.scale.linear().range([0, width]).domain([1, 12.9]),
             xAxis = d3.svg.axis().scale(x1).orient("top"),
             axis1 = svg1.append("g").attr("class", "x axis").attr("transform", "translate(5,30)");
         axis1.call(xAxis);
