@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head lang="ja">
+    <meta charset="UTF-8">
+    <title>栽培事例</title>
+    <style>
+    .axis path, .axis line{
+        fill: none;
+        stroke: black;
+        stroke-width: 1;
+    }
+    .axis text{
+        font-size:11px;
+    }
+
+    </style>
+</head>
+<body>
+<div id="menu"></div>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="cbcalendar.js"></script>
+<script>
+    $(document).ready(function(){
+                $("#menu").cbcalendar();
+            });
+</script>
+</body>
+</html>
